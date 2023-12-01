@@ -11,7 +11,7 @@ def trebuchet(input_file):
         "six": "s6x",
         "seven": "s7n",
         "eight": "e8t",
-        "nine": "n9e"
+        "nine": "n9e",
     }
 
     sum = 0
@@ -25,5 +25,3 @@ def trebuchet(input_file):
 
 if __name__ == "__main__":
     print(trebuchet('actual_input.txt'))
-
-
