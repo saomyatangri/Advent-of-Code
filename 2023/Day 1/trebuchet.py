@@ -16,8 +16,8 @@ def trebuchet(input_file):
 
     sum = 0
     for line in fileinput.input(files = input_file):
-        # for key, val in str2num.items():
-        #     line = line.replace(key, val)
+        for key, val in str2num.items():
+            line = line.replace(key, val)
         nums = re.findall("\d", line)
         finalnum = int(str(nums[0]) + str(nums[-1]))
         sum += finalnum
