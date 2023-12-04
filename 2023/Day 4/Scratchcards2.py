@@ -6,6 +6,7 @@ def scratchcards(input_file):
     frequencies[0] = 0
     card_num = 0
     
+    #I felt like using one-based indexing for the scratchcards. Felt easier to wrap my head around it since that's how they're written in the problem.
     for line in fileinput.input(files = input_file):
         card_num += 1
         pair = line.split("|")
