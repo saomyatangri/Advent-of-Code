@@ -10,7 +10,7 @@ Original file is located at
 import numpy as np
 import pandas as pd
 
-data = np.loadtxt("day1_input.txt")
+data = np.loadtxt("actual_input.txt")
 left = data[:, 0]
 right = data[:, 1]
 
